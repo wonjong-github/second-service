@@ -30,6 +30,6 @@ public class SecondServiceController {
 
     @GetMapping("/check")
     public String check() {
-        return "First service";
+        return "Second service";
     }
 }
